@@ -1,0 +1,2 @@
+key,hook,level,warning,suggestion,category,url,other
+test,normal,4,Does not check for buffer overflows when copying to destination [MS-banned] (CWE-120),"Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy easily misused)",buffer,,{'extract_lookahead': 1}
